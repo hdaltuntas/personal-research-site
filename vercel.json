@@ -2,12 +2,5 @@
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
   "installCommand": "npm install",
-  "framework": "nextjs",
-  "env": {
-    "NEXT_PUBLIC_SITE_URL": {
-      "description": "Site URL for production",
-      "required": false,
-      "default": "http://localhost:3000"
-    }
-  }
+  "framework": "nextjs"
 }

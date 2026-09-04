@@ -5,53 +5,13 @@ export default function BlogPage() {
   const blogPosts = [
     {
       id: 1,
-      title: 'Sheet Pile Wall Analysis with Python',
-      date: '30 Ağustos 2026',
-      excerpt: 'PLAXIS çıktılarını Python ile otomatize etme, veri analizi ve görselleştirme. FEM sonuçları ve makine öğrenmesi modelleri.',
-      tags: ['Python', 'PLAXIS', 'ML', 'Geotechnical'],
-      content: 'Full article content here...',
+      title: '',
+      date: '',
+      excerpt: '',
+      tags: [''],
+      content: '',
     },
-    {
-      id: 2,
-      title: 'Marshall Test Predictions with PINNs',
-      date: '25 Ağustos 2026',
-      excerpt: 'Physics-informed neural networks nasıl çalışır ve Marshall test uygulaması. Bitümlü karışım karakterizasyonu.',
-      tags: ['PINN', 'Asphalt', 'Neural Networks', 'ML'],
-      content: 'Full article content here...',
-    },
-    {
-      id: 3,
-      title: 'CBR-ML Model Comparison',
-      date: '20 Ağustos 2026',
-      excerpt: 'Farklı ML modelleri test sonuçları ve performans karşılaştırması. RandomForest vs XGBoost vs Neural Networks.',
-      tags: ['CBR', 'Machine Learning', 'Data Science'],
-      content: 'Full article content here...',
-    },
-    {
-      id: 4,
-      title: 'PMAT Data Extraction Automation',
-      date: '15 Ağustos 2026',
-      excerpt: '117 PMAT lab raporundan otomatik veri çıkartma. Python ve regex ile text parsing.',
-      tags: ['Data Extraction', 'Python', 'Automation'],
-      content: 'Full article content here...',
-    },
-    {
-      id: 5,
-      title: 'FEM Validation Against Lab Data',
-      date: '10 Ağustos 2026',
-      excerpt: 'PLAXIS FEM analizinin laboratuvar verileriyle doğrulanması. Sensitivity analysis.',
-      tags: ['PLAXIS', 'FEM', 'Validation', 'Geotechnical'],
-      content: 'Full article content here...',
-    },
-    {
-      id: 6,
-      title: 'Getting Started with Physics-Informed Learning',
-      date: '05 Ağustos 2026',
-      excerpt: 'PINN konseptlerine giriş. Fizik kısıtlamalarını sinir ağlarına nasıl entegre edebilirim?',
-      tags: ['PINN', 'Physics', 'Deep Learning'],
-      content: 'Full article content here...',
-    },
-  ]
+   ]
 
   const allTags = Array.from(
     new Set(blogPosts.flatMap((post) => post.tags))

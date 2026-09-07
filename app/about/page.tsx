@@ -12,14 +12,13 @@ export default function About() {
       <section className="section">
         <div className="grid md:grid-cols-3 gap-12 items-start">
           <div className="md:col-span-2">
-            <h2>👋 Kimim Ben</h2>
+            <h2>👋 About me</h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              Geotechnical engineering ve materials science alanında bağımsız araştırmacı olarak çalışıyorum. 
-              Araştırmalarımda makine öğrenmesi (ML), physics-informed neural networks (PINN) ve sayısal 
-              modelleme (FEM) kombinasyonunu kullanarak pratik problemleri çözmek amaçlanıyor.
+              I am an independent researcher working in the fields of geotechnical engineering and materials science. 
+              My research aims to solve practical problems by combining machine learning (ML), physics-informed neural networks (PINNs), and numerical modeling (FEM).
             </p>
             <p className="text-gray-300 leading-relaxed mb-4">
-              Temel ilgim alanları:
+              Research Interest:
             </p>
             <ul className="space-y-2 text-gray-300 mb-6">
               <li className="flex items-center gap-3">
@@ -32,7 +31,7 @@ export default function About() {
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-primary-400">→</span>
-                Machine learning uygulamaları geotechnical'de
+                Machine learning applications in geotechnics
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-secondary-400">→</span>
@@ -43,16 +42,11 @@ export default function About() {
             <div className="bg-dark-800 border border-dark-700 rounded-xl p-6 mb-8">
               <h3 className="font-bold text-white mb-4">🎯 Araştırma Felsefesi</h3>
               <p className="text-gray-300 text-sm leading-relaxed">
-                Tüm araştırmalarım yüksek kaliteli metodoloji, sağlam validasyon ve reproducible code 
-                prensiplerine dayanır. Sadece teorik değil, pratik problemleri çözmek amaçlıyorum. 
-                Her makale:
+                All of my work is grounded in high-quality methodology, rigorous validation, and reproducible code principles. 
+                I strive to solve practical problems with real-world impact rather than purely theoretical ones. 
+                
               </p>
-              <ul className="mt-4 space-y-2 text-sm text-gray-300">
-                <li>✓ Detaylı dataset açıklaması</li>
-                <li>✓ Reproducible Python/MATLAB code</li>
-                <li>✓ FEM veya field data ile validasyon</li>
-                <li>✓ Open-source tools kullanımı</li>
-              </ul>
+              
             </div>
           </div>
 

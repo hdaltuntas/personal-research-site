@@ -1,9 +1,14 @@
 [build]
   command = "npm run build"
-  functions = "netlify/functions"
-  publish = ".next"
+  publish = "out"
 
-# Next.js handles all routing automatically - no redirects needed
+[functions]
+  nodejs_version = "18"
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
 
 [dev]
   command = "npm run dev"
@@ -16,3 +21,4 @@
     X-Content-Type-Options = "nosniff"
     X-XSS-Protection = "1; mode=block"
     Referrer-Policy = "strict-origin-when-cross-origin"
+    Cache-Control = "public, max-age=3600"

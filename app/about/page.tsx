@@ -60,7 +60,7 @@ export default function About() {
           <div>
             <div className="card sticky top-24 text-center">
               <div className="text-6xl mb-4">🔬</div>
-              <h3 className="text-2xl font-bold text-white mb-2">Deniz Haltuntaş</h3>
+              <h3 className="text-2xl font-bold text-white mb-2">Hasan Deniz Altuntaş</h3>
               <p className="text-gray-400 text-sm mb-6">
                 Geotechnical & Materials Research
               </p>
@@ -68,15 +68,15 @@ export default function About() {
               <div className="space-y-4 mb-6">
                 <div className="bg-dark-700 rounded-lg p-3">
                   <div className="text-2xl font-bold text-primary-400">6</div>
-                  <div className="text-xs text-gray-400">Araştırma Alanı</div>
+                  <div className="text-xs text-gray-400">Research Area</div>
                 </div>
                 <div className="bg-dark-700 rounded-lg p-3">
                   <div className="text-2xl font-bold text-secondary-400">6</div>
-                  <div className="text-xs text-gray-400">Planlanan Makale</div>
+                  <div className="text-xs text-gray-400">Planned Papers</div>
                 </div>
                 <div className="bg-dark-700 rounded-lg p-3">
                   <div className="text-2xl font-bold text-primary-400">10+</div>
-                  <div className="text-xs text-gray-400">Aktivite</div>
+                  <div className="text-xs text-gray-400">Activity</div>
                 </div>
               </div>
 

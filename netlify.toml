@@ -3,7 +3,7 @@
   functions = "netlify/functions"
   publish = ".next"
 
-<!-- Next.js handles all routing automatically, no redirects needed -->
+# Next.js handles all routing automatically - no redirects needed
 
 [dev]
   command = "npm run dev"

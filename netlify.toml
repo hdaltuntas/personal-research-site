@@ -2,7 +2,23 @@
   command = "npm run build"
   publish = "out"
 
+[functions]
+  nodejs_version = "18"
+
 [[redirects]]
   from = "/*"
   to = "/404.html"
   status = 404
+
+[dev]
+  command = "npm run dev"
+  port = 3000
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Cache-Control = "public, max-age=3600"

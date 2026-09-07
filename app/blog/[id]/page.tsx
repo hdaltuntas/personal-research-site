@@ -1,5 +1,14 @@
 import Link from 'next/link'
 
+// Generate static params for all blog posts
+export async function generateStaticParams() {
+  return [
+    { id: '1' },
+    { id: '2' },
+    { id: '3' },
+  ]
+}
+
 export default function BlogPost({ params }: { params: { id: string } }) {
   // Mock data - sonra database'den çek
   const posts: Record<string, any> = {

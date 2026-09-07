@@ -2,7 +2,7 @@ export default function About() {
   return (
     <>
       <section className="section pt-16">
-        <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">🎓 Hakkında</h1>
+        <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">🎓 About</h1>
         <p className="text-xl text-gray-300 max-w-2xl">
           Geotechnical engineering ve materials science alanında araştırmacı ve developer.
         </p>
@@ -40,7 +40,7 @@ export default function About() {
             </ul>
 
             <div className="bg-dark-800 border border-dark-700 rounded-xl p-6 mb-8">
-              <h3 className="font-bold text-white mb-4">🎯 Araştırma Felsefesi</h3>
+              <h3 className="font-bold text-white mb-4">🎯 Research Philosophy"</h3>
               <p className="text-gray-300 text-sm leading-relaxed">
                 All of my work is grounded in high-quality methodology, rigorous validation, and reproducible code principles. 
                 I strive to solve practical problems with real-world impact rather than purely theoretical ones. 
@@ -90,7 +90,7 @@ export default function About() {
       {/* Skills */}
       <section className="section-dark py-20">
         <div className="container-custom">
-          <h2 className="section-title">💻 Yetenekler</h2>
+          <h2 className="section-title">💻 Abilities</h2>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {[
@@ -129,7 +129,7 @@ export default function About() {
 
       {/* Timeline */}
       <section className="section">
-        <h2 className="section-title">📅 Yolculuk</h2>
+        <h2 className="section-title">📅 Journey</h2>
 
         <div className="max-w-3xl mx-auto space-y-6">
           {[
@@ -169,13 +169,13 @@ export default function About() {
       {/* CTA */}
       <section className="section">
         <div className="bg-gradient-to-r from-primary-600 to-secondary-600 rounded-2xl p-12 text-center card-glow border-0">
-          <h2 className="text-4xl font-bold text-white mb-4">İşbirliği & İletişim</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">Contact</h2>
           <p className="text-lg text-gray-100 mb-8 max-w-2xl mx-auto">
-            Araştırma, işbirliği, soru veya feedback için benimle iletişime geçebilirsiniz.
+            Feel free to reach out for research collaborations, inquiries, or feedback.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="mailto:deniz@example.com" className="btn bg-white text-primary-600 hover:bg-gray-100">
-              📧 Email Gönder
+              📧 Send mail.
             </a>
             <a href="https://github.com" className="btn bg-white bg-opacity-20 text-white hover:bg-opacity-30" target="_blank">
               🐙 GitHub
